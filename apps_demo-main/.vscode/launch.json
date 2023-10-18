@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug integration_test",
+            "program": "test_driver/integration_test_driver.dart",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--target=integration_test/e2e/runner.dart",
+            ],
+        }
+    ]
+}
